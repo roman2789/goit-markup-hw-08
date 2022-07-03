@@ -1,4 +1,8 @@
 .nav {
+  display: none;
+}
+
+/* .nav {
   display: flex;
   align-items: center;
   height: 100%;
@@ -48,4 +52,4 @@
   &__link--current {
     color: var(--accent-color);
   }
-}
+} */

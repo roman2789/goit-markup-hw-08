@@ -25,6 +25,24 @@
           <a class="logo header__logo" href="./" lang="en"
             >Web<span class="header__logo-part">Studio</span></a
           >
+          <button 
+          type="button" 
+          class="header__menu-btn" 
+          aria-expanded="false" 
+          aria-controls="menu-container"
+          data-menu-button>
+            <svg 
+            width="40" 
+            height="40"
+            aria-label="Перемикач мобільного меню"
+            >
+              <use class="icon-cross" href="./img/sprite.svg#menu-cls"></use>
+              <use class="icon-menu" href="./img/sprite.svg#menu"></use>
+            </svg>
+          </button>
+
+          <div class="menu-container" id="menu-container" data-menu></div>
+        
           <ul class="nav">
             <li class="nav__item"><a href=" " class="nav__link nav__link--current">Студія</a></li>
             <li class="nav__item"><a href="./portfolio.html " class="nav__link">Портфоліо</a></li>
@@ -53,19 +71,22 @@
       </div>
     </header>
 
-    <!-- hero -->
+   
 
     <main>
-      <section class="hero">
+
+       <!-- hero --> 
+
+    <!--   <section class="hero">
         <div class="container hero__container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button class="hero__button btn" type="button" data-modal-open>Заказати послугу</button>
         </div>
-      </section>
+      </section> -->
 
       <!-- features -->
 
-      <section class="features">
+      <!-- <section class="features">
         <div class="container">
           <h2 class="features__title">Особливості</h2>
           <ul class="features__list">
@@ -115,11 +136,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- services -->
 
-      <section class="services">
+     <!--  <section class="services">
         <div class="container">
           <h2 class="services__title">Чим ми займаємося</h2>
           <ul class="services__list">
@@ -152,11 +173,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- team -->
 
-      <section class="team">
+      <!-- <section class="team">
         <div class="container">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list">
@@ -322,11 +343,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- clients -->
 
-      <section class="clients">
+     <!--  <section class="clients">
         <div class="container">
           <h2 class="clients__title">Постійні клієнти</h2>
           <ul class="clients__list">
@@ -375,11 +396,11 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <!-- footer -->
 
-    <footer class="footer">
+<!--     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__addr-block">
           <a href="./" lang="en" class="logo">Web<span class="footer__logo-part">Studio</span></a>
@@ -479,9 +500,11 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- modal -->
+
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal__close-btn" type="button" data-modal-close>
           <svg class="modal__close-icon" width="11" height="11">
@@ -536,8 +559,9 @@
           <button class="modal__form-btn btn" type="submit">Відправити</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
