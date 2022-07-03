@@ -70,6 +70,14 @@
     color: rgba(117, 117, 117, 0.5);
   }
 
+  .checkbox-label {
+    @media screen and (max-width: 453px) {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
   &__checkbox-box {
     position: relative;
     display: flex;

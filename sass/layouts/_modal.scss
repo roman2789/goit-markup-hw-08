@@ -16,7 +16,7 @@
   .backdrop.is-hidden & {
     opacity: 0;
 
-    transform: translate(-50%, -50%) perspective(300px) scale(0.1) rotateX(180deg);
+    transform: perspective(300px) scale(0.1) rotateX(180deg);
   }
 
   &__title {

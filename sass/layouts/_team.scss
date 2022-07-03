@@ -1,4 +1,28 @@
 .team {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f5f4fa;
+
+  &__title {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding-left: 0;
+    margin-top: 30px;
+  }
+}
+
+/* .team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
@@ -20,4 +44,4 @@
     padding-left: 0;
     margin-top: 50px;
   }
-}
+} */
