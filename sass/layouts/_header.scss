@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 93px;
+    height: 100%;
+  }
+
+  &__logo-part {
+    color: #000000;
+  }
+}

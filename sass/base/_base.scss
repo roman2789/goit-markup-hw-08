@@ -1,0 +1,23 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #ffffff;
+  color: var(--title-text-color);
+  margin: 0;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1200px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.features__title,
+.projects__title {
+  visibility: hidden;
+}

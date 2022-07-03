@@ -1,0 +1,26 @@
+@mixin btn(
+  $fw: 700,
+  $lh: 1.88,
+  $ls: 0.06em,
+  $bg: var(--accent-color),
+  $clr: var(--primary-white-color)
+) {
+  font-weight: $fw;
+  line-height: $lh;
+  letter-spacing: $ls;
+  background: $bg;
+  color: $clr;
+}
+@mixin social-list($dsp: flex, $jc: center) {
+  display: $dsp;
+  justify-content: $jc;
+}
+
+@mixin social-link($bg: transparent, $clr: #afb1b8) {
+  background-color: $bg;
+  color: $clr;
+}
+
+@mixin social-icon($fill: currentColor) {
+  fill: $fill;
+}

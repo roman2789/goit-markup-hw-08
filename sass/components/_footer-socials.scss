@@ -1,0 +1,30 @@
+.footer-socials {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 12px;
+  margin-right: 93px;
+  min-width: 206px;
+
+  &__subtitle {
+    @extend %footer-subtitle;
+  }
+  &__list {
+    @include social-list(flex, flex-start);
+    gap: 10px;
+  }
+
+  &__link {
+    @include social-link(rgba(255, 255, 255, 0.1), #ffffff);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
+  }
+
+  &__icon {
+    @include social-icon(#ffffff);
+  }
+}

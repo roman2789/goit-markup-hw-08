@@ -1,0 +1,41 @@
+.subscribe {
+  padding-top: 12px;
+
+  &__subtitle {
+    @extend %footer-subtitle;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  &__form-input {
+    display: block;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
+
+  &__button {
+    @include btn();
+    @extend %btn;
+    gap: 10px;
+    min-width: 200px;
+    min-height: 50px;
+  }
+
+  &__button-icon {
+    fill: var(--primary-white-color);
+  }
+}

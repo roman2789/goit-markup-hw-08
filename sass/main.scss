@@ -1,0 +1,29 @@
+@import "./utils/vars";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+
+@import "./base/base";
+@import "./base/reset";
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/sevices";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/projects";
+@import "./layouts/modal";
+
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/header-contacts";
+@import "./components/socials";
+@import "./components/member-card";
+@import "./components/address";
+@import "./components/footer-socials";
+@import "./components/footer-form";
+@import "./components/form";
+@import "./components/project-cards";
+@import "./components/footer-contacts";
+@import "./components/modal-backdrop";
