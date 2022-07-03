@@ -1,10 +1,11 @@
 .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   &__filter {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 8px;
 
     padding-left: 0;

@@ -24,8 +24,23 @@
           <a class="logo header__logo" href="./" lang="en"
             >Web<span class="header__logo-part">Studio</span></a
           >
+          <button
+            type="button"
+            class="header__menu-btn"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+              <use class="icon-cross" href="./img/sprite.svg#menu-cls"></use>
+              <use class="icon-menu" href="./img/sprite.svg#menu"></use>
+            </svg>
+          </button>
+
+          <div class="menu-container" id="menu-container" data-menu></div>
+
           <ul class="nav">
-            <li class="nav__item"><a href="./index.html" class="nav__link">Студія</a></li>
+            <li class="nav__item"><a href="./index.html  " class="nav__link">Студія</a></li>
             <li class="nav__item">
               <a href=" " class="nav__link nav__link--current">Портфоліо</a>
             </li>
@@ -83,10 +98,9 @@
               <a href="" class="card__link">
                 <div class="card__illustr">
                   <img
-                    class="project-pic"
+                    class="card__img"
                     src="./img/portfolio1.jpeg"
                     alt="відкритий сайт на ноутбуці"
-                    width="370"
                   />
                   <p class="card__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -106,10 +120,9 @@
               <a href="" class="card__link">
                 <div class="card__illustr">
                   <img
-                    class="project-pic"
+                    class="card__img"
                     src="./img/portfolio2.jpeg"
                     alt="два баскетболіста з м'ячем"
-                    width="370"
                   />
                   <p class="card__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -128,12 +141,7 @@
             <li class="card">
               <a href="" class="card__link">
                 <div class="card__illustr">
-                  <img
-                    class="project-pic"
-                    src="./img/portfolio3.jpeg"
-                    alt="лого рибного ресторану"
-                    width="370"
-                  />
+                  <img class="card__img" src="./img/portfolio3.jpeg" alt="лого рибного ресторану" />
                   <p class="card__overlay">
                     РРесурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанії чи
@@ -151,12 +159,7 @@
             <li class="card">
               <a href="" class="card__link">
                 <div class="card__illustr">
-                  <img
-                    class="project-pic"
-                    src="./img/portfolio4.jpeg"
-                    alt="чорні навушники"
-                    width="370"
-                  />
+                  <img class="card__img" src="./img/portfolio4.jpeg" alt="чорні навушники" />
                   <p class="card__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанії чи
@@ -174,12 +177,7 @@
             <li class="card">
               <a href="" class="card__link">
                 <div class="card__illustr">
-                  <img
-                    class="project-pic"
-                    src="./img/portfolio5.jpeg"
-                    alt="дві коробки"
-                    width="370"
-                  />
+                  <img class="card__img" src="./img/portfolio5.jpeg" alt="дві коробки" />
                   <p class="card__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанії чи
@@ -198,10 +196,9 @@
               <a href="" class="card__link">
                 <div class="card__illustr">
                   <img
-                    class="project-pic"
+                    class="card__img"
                     src="./img/portfolio6.jpeg"
                     alt="открытый веб-сайт на аймаке"
-                    width="370"
                   />
                   <p class="card__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -220,12 +217,7 @@
             <li class="card">
               <a href="" class="card__link">
                 <div class="card__illustr">
-                  <img
-                    class="project-pic"
-                    src="./img/portfolio7.jpeg"
-                    alt="разгорнутий журнал"
-                    width="370"
-                  />
+                  <img class="card__img" src="./img/portfolio7.jpeg" alt="разгорнутий журнал" />
                   <p class="card__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанії чи
@@ -243,12 +235,7 @@
             <li class="card">
               <a href="" class="card__link">
                 <div class="card__illustr">
-                  <img
-                    class="project-pic"
-                    src="./img/portfolio8.jpeg"
-                    alt="бірка з назвою бренду"
-                    width="370"
-                  />
+                  <img class="card__img" src="./img/portfolio8.jpeg" alt="бірка з назвою бренду" />
                   <p class="card__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанії чи
@@ -267,10 +254,9 @@
               <a href="" class="card__link">
                 <div class="card__illustr">
                   <img
-                    class="project-pic"
+                    class="card__img"
                     src="./img/portfolio9.jpeg"
                     alt="ноутбук з руками на ньому"
-                    width="370"
                   />
                   <p class="card__overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -391,5 +377,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>

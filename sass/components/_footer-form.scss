@@ -43,6 +43,8 @@
     @extend %btn;
     max-width: 200px;
     min-height: 50px;
+    padding-left: 28px;
+    padding-right: 28px;
   }
 
   &__button-icon {
