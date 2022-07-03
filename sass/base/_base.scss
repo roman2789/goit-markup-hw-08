@@ -3,6 +3,10 @@ body {
   background-color: #ffffff;
   color: var(--title-text-color);
   margin: 0;
+
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 a:hover {
