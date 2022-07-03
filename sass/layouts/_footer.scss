@@ -3,12 +3,11 @@
   padding-bottom: 60px;
   background-color: #2f303a;
 
-  &__container {
-    display: flex;
-  }
-
   &__addr-block {
-    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     min-width: 231px;
   }
   &__logo-part {
