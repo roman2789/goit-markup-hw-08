@@ -20,6 +20,9 @@
 
   &__form-input {
     width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 450px;
+    }
   }
 
   &__form-input {

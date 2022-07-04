@@ -3,6 +3,15 @@
   padding-bottom: 60px;
   background-color: #2f303a;
 
+  &__container {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 165px;
+    }
+  }
+
   &__addr-block {
     display: flex;
     justify-content: center;
