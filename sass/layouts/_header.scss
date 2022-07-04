@@ -16,6 +16,10 @@
       gap: 88px;
       height: 100%;
     }
+
+    @media screen and (min-width: 1200px) {
+      gap: 93px;
+    }
   }
 
   &__logo {

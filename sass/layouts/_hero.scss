@@ -9,6 +9,10 @@
   background-position: center;
   background-origin: border-box;
   background-size: auto 100%;
+
+  @media screen and (min-width: 1200px) {
+    padding: 200px 0px;
+  }
   &__title {
     max-width: 360px;
     margin: 0 auto;
@@ -20,6 +24,12 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-white-color);
+
+    @media screen and (min-width: 1200px) {
+      max-width: 696px;
+      font-weight: 900;
+      font-size: 44px;
+    }
   }
 
   &__button {

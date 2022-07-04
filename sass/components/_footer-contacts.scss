@@ -5,6 +5,10 @@
   gap: 9px;
   margin-top: 9px;
 
+  @media screen and (min-width: 1200px) {
+    align-items: flex-start;
+  }
+
   &__link {
     @extend %contacts-link;
     font-weight: 400;

@@ -12,6 +12,11 @@
     padding-top: 5px;
   }
 
+  @media screen and (min-width: 1200px) {
+    align-items: start;
+    padding-top: 12px;
+  }
+
   &__subtitle {
     @extend %footer-subtitle;
   }

@@ -1,9 +1,10 @@
 .services {
-  display: none;
-}
-
-/* .services {
   padding-bottom: 94px;
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 
   &__title {
     font-weight: 700;
@@ -41,5 +42,4 @@
     text-transform: uppercase;
     color: var(--primary-white-color);
   }
-  
-} */
+}

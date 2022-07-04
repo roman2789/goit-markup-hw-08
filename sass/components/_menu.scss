@@ -35,6 +35,11 @@
     gap: 84px;
     height: 100%;
   }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: space-between;
+    width: 100%;
+  }
 }
 
 .menu-socials {

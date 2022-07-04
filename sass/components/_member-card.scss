@@ -9,6 +9,10 @@
     flex-basis: calc((100% - 30px) / 2);
   }
 
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+  }
+
   &__photo {
     display: block;
     width: 100%;
