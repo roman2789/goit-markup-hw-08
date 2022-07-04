@@ -7,6 +7,9 @@ body {
   &.modal-open {
     overflow: hidden;
   }
+  &.is-open {
+    overflow: hidden;
+  }
 }
 /* img {
   width: 100%;
@@ -29,5 +32,9 @@ a:hover {
 
   @media screen and (min-width: 480px) {
     width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
   }
 }

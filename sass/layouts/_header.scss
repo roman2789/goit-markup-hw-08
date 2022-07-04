@@ -1,12 +1,27 @@
 .header {
   position: relative;
+  height: 80px;
   border-bottom: 1px solid #ececec;
-  &__navbar {
+
+  &__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 80px;
+    height: 100%;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 88px;
+      height: 100%;
+    }
   }
+
+  &__logo {
+    display: block;
+  }
+
   &__logo-part {
     color: #000000;
   }
@@ -27,21 +42,10 @@
     &.is-open .icon-menu {
       display: none;
     }
-  }
-}
 
-.menu-container {
-  position: absolute;
-  top: -80px;
-  left: 0;
-  width: 100%;
-  height: 100rem;
-  padding: 48px 40px;
-  background-color: tomato;
-  display: none;
-
-  &.is-open {
-    display: block;
+    @media screen and(min-width:768px) {
+      display: none;
+    }
   }
 }
 
