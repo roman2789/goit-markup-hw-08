@@ -11,9 +11,11 @@ body {
     overflow: hidden;
   }
 }
-/* img {
-  width: 100%;
-} */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 a:hover {
   cursor: pointer;
