@@ -7,6 +7,7 @@
     @media screen and (min-width: 768px) {
       display: flex;
       justify-content: center;
+      align-items: baseline;
       flex-wrap: wrap;
       column-gap: 165px;
     }
@@ -36,21 +37,3 @@
     color: var(--primary-white-color);
   }
 }
-
-/* .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #2f303a;
-
-  &__container {
-    display: flex;
-  }
-
-  &__addr-block {
-    margin-right: 70px;
-    min-width: 231px;
-  }
-  &__logo-part {
-    color: var(--primary-white-color);
-  }
-} */
